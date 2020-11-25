@@ -1,0 +1,32 @@
+{
+  "name": "@sacrize/sails-hook-mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sacrize/sails-hook-mailer.git"
+  },
+  "keywords": [
+    "sails",
+    "hook",
+    "mailer"
+  ],
+  "sails": {
+    "isHook": true
+  },
+  "author": "Jakub Paprocki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sacrize/sails-hook-mailer/issues"
+  },
+  "homepage": "https://github.com/Sacrize/sails-hook-mailer#readme",
+  "dependencies": {
+    "nodemailer": "^6.4.16",
+    "sails-hook-cron": "^3.2.0",
+    "sails-hook-custom-queues": "^1.0.0"
+  }
+}
